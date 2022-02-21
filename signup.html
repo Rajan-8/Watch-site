@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome 5 CDN link to add icones -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Sign Up</title>
+    <!-- Linking .css file with HTML page -->
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup">
+      
+        <dive>
+            <h1>Sign Up</h1>
+            <h5>Welcome to our Community</h5>
+            <form action="" method="get">
+             <div class="main">
+              <div>
+                <p><label for="userName">User Name</label></p>
+                <input type="text" id="userName" autocomplete="off" >
+             </div>
+             <div>
+                <p><label for="email">Email Address</label></p>
+                <input type="email" id="email" name="email" required autocomplete="off">
+             </div>
+             <div>
+                <p><label for="password">Password</label></p>
+                <input type="password" id="password" required >
+             </div>
+            </div>
+             <form action="/action_page.php">
+                <p>Please select your Gender:</p>
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="male">MALE</label><br>
+                <input type="radio" id="female" name="gender" value="FEMALE">
+                <label for="female">FEMALE</label><br>
+                <input type="radio" id="TRANSGENDER" name="gender" value="TRANSGENDER">
+                <label for="others">TRANSGENDER</label>
+              
+                <br>  
+                <br>
+                <br>
+              
+                <form action="/action_page.php">
+                    <label for="age">Choose your Age category:</label>
+                    <select name="age" id="age">
+                      <option value="0-15"> 0-15</option>
+                      <option value="15-20"> 16-20</option>
+                      <option value="21-35">21-35</option>
+                      <option value="35-60">35-60</option>
+                    </select><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <input type="checkbox" id="terms" name="terms" value="agree">
+                   <label for="terms"> I Agree to disclose my information with Watch.in</label><br>
+                </form><br>
+                <form action="index.html">
+                  <input type="submit" value="Submit" />
+              </form>
+              </form>
+              
+             <p>Already a member? <a href="signin.html">Log in</a></p>
+            </form>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

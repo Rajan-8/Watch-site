@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.container {
+  position:relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: linear-gradient(45deg,white,rgb(191, 223, 233));
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.signup {
+  width: 280px;
+  padding: 8% 0 0;
+  margin: auto;
+}
