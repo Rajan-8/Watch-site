@@ -21,3 +21,18 @@ body{
   color:violet;
   padding-top: 13%;
 }
+.watch-header {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  text-decoration:solid;
+  color:rgb(241, 11, 107);
+  font: weight 1500px;;
+  font-size:xx-large;
+  background: linear-gradient(rgba(249, 249, 250, 0.3), rgba(242, 242, 247, 0.4)),
+  url(/img/watchcover1.jpg);
+}
