@@ -19,16 +19,19 @@
             <form action="" method="get">
              <div class="main">
               <div>
-                <p><label for="userName">User Name</label></p>
-                <input type="text" id="userName" autocomplete="off" >
+                <p><label for="username">User Name</label></p>
+                <input type="text" id="username" required >
+                <p class="error" id="username-error"> * Username is required ! </p>
              </div>
              <div>
                 <p><label for="email">Email Address</label></p>
                 <input type="email" id="email" name="email" required autocomplete="off">
+                <p class="error" id="email-error"> * Valid Email id is required ! </p>
              </div>
              <div>
                 <p><label for="password">Password</label></p>
                 <input type="password" id="password" required >
+                <p class="error" id="password-error"> * Password is required ! </p>
              </div>
             </div>
              <form>
@@ -68,5 +71,6 @@
         </div>
         
     </div>
+    <script src="signup.js"></script>
 </body>
 </html>
