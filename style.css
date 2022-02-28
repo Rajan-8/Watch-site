@@ -34,5 +34,5 @@ body{
   font: weight 1500px;;
   font-size:xx-large;
   background: linear-gradient(rgba(249, 249, 250, 0.3), rgba(242, 242, 247, 0.4)),
-  url(/img/watchcover1.jpg);
+  url(img/watchcover1.jpg);
 }
